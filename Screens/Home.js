@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View, Dimensions, StyleSheet } from 'react-native';
 import Svg, { Image } from 'react-native-svg';
 
+
 export default function Home() {
   const { width, height } = Dimensions.get("window");
   return (
@@ -32,50 +33,51 @@ export default function Home() {
   );
 }
 
+
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      justifyContent: 'center'
-    },
-    homeContent: {
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-    flexItem: {
-      marginVertical: '18%',
-    }, 
-    button: {
-      backgroundColor: '#004F44',
-      height: 55,
-      paddingHorizontal: 60,
-      justifyContent: 'center',
-      alignItems: 'center',
-      borderRadius: 10,
-      marginHorizontal: 20,
-      marginVertical: 10,
-      borderWidth: 1,
-      borderColor: "white", 
-    },
-    buttonText: {
-      fontSize: '20px',
-      fontWeight: '600',
-      color: 'white',
-  
-    },
-    quoteText: {
-      fontSize: '20px',
-      fontWeight: '600',
-      color: 'white',
-      marginHorizontal: '19%',
-      textAlign: 'center'
-    },
-    title: {
-      fontSize: '40px',
-      fontWeight: '600',
-      color: 'white',
-      marginHorizontal: '19%',
-      textAlign: 'center'
-    }
-  });
+  container: {
+    flex: 1,
+    justifyContent: 'center'
+  },
+  homeContent: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  flexItem: {
+    marginVertical: '18%',
+  }, 
+  button: {
+    backgroundColor: '#004F44',
+    height: 55,
+    paddingHorizontal: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 10,
+    marginHorizontal: 20,
+    marginVertical: 10,
+    borderWidth: 1,
+    borderColor: "#004F44", 
+  },
+  buttonText: {
+    fontSize: '20px',
+    fontWeight: '600',
+    color: 'white',
+
+  },
+  quoteText: {
+    fontSize: '20px',
+    fontWeight: '600',
+    color: 'white',
+    marginHorizontal: '19%',
+    textAlign: 'center'
+  },
+  title: {
+    fontSize: '40px',
+    fontWeight: '600',
+    color: 'white',
+    marginHorizontal: '19%',
+    textAlign: 'center'
+  }
+});
   
 

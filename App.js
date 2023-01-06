@@ -1,14 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View, Dimensions, StyleSheet } from 'react-native';
-import styles from './Style';
 import Svg, { Image } from 'react-native-svg';
+import Login from './Screens/Login';
 import Home from './Screens/Home';
+import Signup from './Screens/Signup';
+
 
 export default function App() {
-  const { width, height } = Dimensions.get("window");
   return (
-    <View style={styles.container}>
-      <Home />
-    </View>
+      <Signup />
   );
 }
